@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Styling for the body -->
+    <style>
+        body {
+            display: flex;
+        }
+
+        /* Variable declarations for color values using CSS custom properties */
+        :root {
+            --primary-color: #00b7ff;    /* Primary color variable */
+            --secondary-color: #6c747d;  /* Secondary color variable */
+        }
+
+        /* Styling for buttons with primary color */
+        .primaryBtn {
+            background-color: var(--primary-color); /* Using primary color variable for background */
+        }
+
+        /* Styling for buttons with secondary color */
+        .secondaryBtn {
+            background-color: var(--secondary-color); /* Using secondary color variable for background */
+        }
+    </style>
+</head>
+<body>
+    <!-- Button with primary color -->
+    <div class="primaryBtn"><button>Primary Button</button></div>
+
+    <!-- Button with secondary color -->
+    <div class="secondaryBtn"><button>Secondary Button</button></div>
+</body>
+</html>
